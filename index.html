@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Стол Плюс</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
-    
+<body class="bg-[#f3f3f3] font-sans antialiased text-gray-900">
+
+    <div class="hidden lg:block w-full">
+        <header class="bg-[#99cc33] text-white">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center space-x-8">
+                    <div class="flex items-center space-x-2">
+                        <img src="./images/Mask group.png" alt="" class="h-10 w-auto object-contain">
+                    </div>
+                    <button class="border-2 border-white/50 bg-white/10 hover:bg-white/20 px-6 py-2 rounded-lg flex items-center space-x-2 font-medium transition cursor-pointer">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>Каталог</span>
+                    </button>
+                </div>
+                
+                <nav class="flex items-center space-x-6 text-sm font-medium opacity-90">
+                    <a href="#" class="hover:underline">Доставка</a>
+                    <a href="#" class="hover:underline text-yellow-200">Способы оплаты</a>
+                    <a href="#" class="hover:underline">Контакты</a>
+                    <a href="#" class="hover:underline">Гарантии и возврат</a>
+                    <a href="#" class="hover:underline">Политика конфиденциальности</a>
+                </nav>
+
+                <a href="#" class="flex items-center space-x-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg transition">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span>Корзина</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="max-w-7xl mx-auto px-6 py-16 relative min-h-[600px] flex items-center">
+            
+            <button class="absolute left-0 top-1/2 -translate-y-1/2 text-[#99cc33] text-4xl hover:scale-110 transition cursor-pointer z-10">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="grid grid-cols-12 gap-8 w-full items-center">
+                <div class="col-span-6 space-y-6">
+                    <h1 class="text-5xl font-black tracking-tight leading-tight text-gray-900">
+                        Идеи, товары и услуги.<br>Все для красивого дома
+                    </h1>
+                    <p class="text-gray-500 text-lg max-w-md leading-relaxed">
+                        У нас есть и готовые модели, и возможность сделать мебель на заказ по вашему собственному дизайну.
+                    </p>
+                    
+                    <div class="bg-white rounded-2xl p-2 flex items-center shadow-sm border border-gray-100 max-w-xl">
+                        <input type="text" placeholder="Найти товары" class="flex-grow px-4 py-3 outline-none text-gray-700 placeholder-gray-400">
+                        <div class="border-l border-gray-200 px-4 flex items-center space-x-2 text-sm text-gray-500 cursor-pointer">
+                            <span>Поиск по: <strong class="text-gray-800 font-medium">Товарам</strong></span>
+                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </div>
+                        <button class="bg-[#99cc33] text-white p-4 rounded-xl hover:bg-[#88bb22] transition flex items-center justify-center cursor-pointer">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-span-6 relative flex justify-center mt-35">
+                    <div class="absolute -top-50 right-20 z-0">
+                        <img src="./images/Слой 1 1.png" alt="" class="h-48 w-auto">
+                    </div>
+
+                    <div class="bg-[#dedede] rounded-3xl p-8 pt-12 w-[420px] relative mt-12 shadow-md">
+                        <div class="space-y-1 mb-6 text-gray-800">
+                            <h3 class="text-3xl font-bold">Virtorya</h3>
+                            <p class="text-sm opacity-80">Кресло интерьерное</p>
+                        </div>
+                        
+                        <div class="flex items-center justify-between mt-90">
+                            <div class="flex items-center space-x-2">
+                                <span class="text-xs text-gray-500 mr-1">Цвет:</span>
+                                <span class="w-5 h-5 rounded-full bg-white border border-gray-300 inline-block cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-red-500 inline-block cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-amber-400 inline-block cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-gray-600 inline-block cursor-pointer"></span>
+                            </div>
+                            <div class="text-2xl font-extrabold text-gray-900">8900.00 руб</div>
+                        </div>
+
+                        <div class="absolute -bottom-[-110px] left-1/2 -translate-x-1/2 w-[110%] pointer-events-none mt-[-200px]" >
+                            <img src="./images/870 1.png" alt="" class="">
+                        </div>
+                    </div>
+
+                    <div class="absolute bottom-[-40px] left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm flex items-center space-x-2 text-xs font-semibold">
+                        <span class="w-5 h-5 bg-amber-500 text-white rounded-full flex items-center justify-center text-xs"><i class="fa-solid fa-plus"></i></span>
+                        <span>Итальянская экокожа</span>
+                    </div>
+
+                    <div class="absolute bottom-[-60px] right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm flex items-center space-x-2 text-xs font-semibold">
+                        <span class="w-5 h-5 bg-amber-500 text-white rounded-full flex items-center justify-center text-xs"><i class="fa-solid fa-plus"></i></span>
+                        <span>Прочные опорные ножки</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="absolute right-0 top-1/2 -translate-y-1/2 text-[#99cc33] text-4xl hover:scale-110 transition cursor-pointer z-10">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </main>
+    </div>
+
+
+    <div class="block lg:hidden w-full max-w-md mx-auto bg-[#f3f3f3] min-h-screen flex flex-col">
+        <header class="bg-[#99cc33] text-white px-4 py-3 flex items-center justify-between rounded-b-2xl shadow-sm">
+            <button class="border border-white/40 bg-white/10 px-3 py-1.5 rounded-full text-xs font-medium flex items-center space-x-1">
+                <span>Каталог</span>
+            </button>
+            
+            <img src="./images/Mask group.png" alt="" class="h-7 w-auto object-contain">
+
+            <div class="flex items-center space-x-4 text-xl">
+                <button class="hover:opacity-80"><i class="fa-solid fa-bars"></i></button>
+                <a href="#" class="hover:opacity-80"><i class="fa-solid fa-basket-shopping"></i></a>
+            </div>
+        </header>
+
+        <main class="p-4 flex-grow flex flex-col justify-between space-y-6">
+            <div class="text-center space-y-3 pt-4">
+                <h1 class="text-3xl font-black tracking-tight text-gray-900 leading-tight">
+                    Идеи, товары и услуги.<br>Все для красивого дома
+                </h1>
+                <p class="text-gray-500 text-sm max-w-sm mx-auto leading-relaxed">
+                    У нас есть и готовые модели, и возможность сделать мебель на заказ по вашему собственному дизайну.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl p-1.5 flex items-center shadow-sm border border-gray-100">
+                <input type="text" placeholder="Найти товары" class="flex-grow px-3 py-2.5 text-sm outline-none text-gray-700">
+                <button class="text-gray-400 px-2 mr-1">
+                    <i class="fa-solid fa-sliders"></i>
+                </button>
+                <button class="bg-[#99cc33] text-white p-3 rounded-lg flex items-center justify-center">
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
+                </button>
+            </div>
+
+            <div class="bg-[#dedede] rounded-3xl p-6 pt-8 relative mt-6 flex-grow flex flex-col justify-between min-h-[380px]">
+                <div class="text-center space-y-1">
+                    <h3 class="text-2xl font-bold text-gray-800">Virtorya</h3>
+                    <p class="text-xs text-gray-500">Кресло интерьерное</p>
+                </div>
+
+                <div class="space-y-3 z-10">
+                    <div class="flex items-center justify-center space-x-1.5 text-xs text-gray-500">
+                        <span>Цвет:</span>
+                        <span class="w-4 h-4 rounded-full bg-white border border-gray-300 inline-block"></span>
+                        <span class="w-4 h-4 rounded-full bg-red-500 inline-block"></span>
+                        <span class="w-4 h-4 rounded-full bg-amber-400 inline-block"></span>
+                        <span class="w-4 h-4 rounded-full bg-gray-600 inline-block"></span>
+                    </div>
+                    <div class="text-xl font-black text-gray-900 text-center">8900.00 руб</div>
+                </div>
+
+                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[95%] pointer-events-none">
+                    <img src="./images/870 1.png" alt="" class="w-full h-auto object-contain">
+                </div>
+            </div>
+        </main>
+    </div>
+
 </body>
 </html>
